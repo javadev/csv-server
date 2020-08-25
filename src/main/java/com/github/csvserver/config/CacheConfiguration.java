@@ -44,6 +44,7 @@ public class CacheConfiguration {
             createCache(cm, com.github.csvserver.domain.User.class.getName() + ".authorities");
             createCache(cm, com.github.csvserver.domain.PersistentToken.class.getName());
             createCache(cm, com.github.csvserver.domain.User.class.getName() + ".persistentTokens");
+            createCache(cm, com.github.csvserver.domain.Csvfile.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

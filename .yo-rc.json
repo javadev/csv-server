@@ -35,6 +35,8 @@
     "dtoSuffix": "DTO",
     "otherModules": [],
     "enableTranslation": false,
-    "blueprints": []
+    "blueprints": [],
+    "herokuAppName": "csv-demo",
+    "herokuDeployType": "git"
   }
 }
